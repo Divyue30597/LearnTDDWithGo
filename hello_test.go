@@ -19,3 +19,4 @@ func TestHello2(t *testing.T) {
 		t.Errorf("got %q want %q", got, want)
 	}
 }
+

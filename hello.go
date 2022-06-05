@@ -2,12 +2,14 @@ package main
 
 import "fmt"
 
+const englishHelloPrefix = "Hello, "
+
 func Hello() string {
-	return "Hello, world"
+	return englishHelloPrefix + "world"
 }
 
 func Hello2(name string) string {
-	return "Hello, " + name
+	return englishHelloPrefix + name
 }
 
 func main() {
