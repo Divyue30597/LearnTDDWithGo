@@ -71,7 +71,7 @@ func Hello6(name string, language string) string {
 // named return value as `prefix string`
 // This will create a variable called prefix in the function and will be assigned to "" for string in case of int it will be initialised to 0
 // we can return whatever it's set to by just calling `return` in the function rather than `return prefix`
-// 
+//
 func greetingPrefix(language string) (prefix string) {
 	switch language {
 	case french:
